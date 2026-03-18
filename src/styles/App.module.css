@@ -1,0 +1,35 @@
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.loading {
+    font-size: 1rem;
+    color: #888;
+}
+
+.select {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    color: #111;
+    cursor: pointer;
+    outline: none;
+}
+
+.select:focus {
+    border-color: #555;
+}
